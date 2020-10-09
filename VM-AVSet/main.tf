@@ -27,7 +27,7 @@ data "azurerm_subnet" "subnet" {
 
 
 resource "azurerm_network_interface" "nic" {
-  name                = "nic"
+  name                = var.NetworInterfeceController
   location            = data.azurerm_resource_group.rg.location
   resource_group_name = data.azurerm_resource_group.rg.name
 

@@ -30,3 +30,10 @@ variable "VMName" {
     type = string
     description = "Name of the VM"
 }
+
+variable "NetworInterfeceController" {
+    type = string
+    default = "nic"
+    description = "network interface name"
+}
+
