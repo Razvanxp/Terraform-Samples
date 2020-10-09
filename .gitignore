@@ -9,6 +9,8 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.tfstate
+*.backup
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -17,6 +19,7 @@
 mono_crash.*
 
 # Build results
+.terraform
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
